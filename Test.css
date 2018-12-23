@@ -9,7 +9,6 @@ header{
   font-size: 2em;
   text-align: center;
   padding: 30px;
-  color:green;
 
 }
 header:hover{
@@ -19,22 +18,13 @@ header:hover{
 
 main{
 display: flex;
-flex:80px;
+flex:100px;
 margin: 40px;
 }
-h1{
-  font-size: 1.6em;
-  color:yellow;
-  font-weight: lighter;
-}
-h2{
-  font-size: 1.5em;
-  color:coral;
-}
+
 
 p{
 font-size: 1em;
-font-weight: lighter;
 }
 
 li{
@@ -43,31 +33,6 @@ li{
   margin: 0
   padding:0
 }
-dl{
-
-
-}
-dt{
-  font-size: inherit;
-  color:pink;
-  text-align:center;
-  padding: 20px;
-}
-dd{
-  margin: 0
-}
-#one{
-  background-color: coral;
-  margin: 90px 0 40px 0;
-  border-style: solid;
-}
-#two{
-  background-color: coral;
-  margin-bottom: 40px;
-  border-style: solid;
-}
-
-
 
 footer{
   text-align: center;
@@ -96,14 +61,13 @@ nav li:first-child{
   background-color: black;
 }
 
-/* =============left Part==================== */
+/* =============Block Part==================== */
 .block p{
   background-color: coral;
   padding: 20px;
 }
 .block{
   display: block;
-  margin-top: 50px;
 
 }
 .text{
@@ -114,11 +78,23 @@ nav li:first-child{
   background-color: coral;
   border-style: solid;
 }
-
-/* =====================content PART============================== */
-.whole{
-  margin: 20px;
+.rightbar{
+  margin: 0
+  padding:0
 }
+.rightbar ul{
+  background-color: coral;
+margin: 0
+}
+.rightbar li{
+color:black;
+margin: 0
+}
+img{
+margin: 0
+
+}
+/* =====================content PART============================== */
 .middle{
   column-count: 2;
   column-width: 100px;
@@ -126,7 +102,7 @@ nav li:first-child{
   border: 2px solid coral;
   padding: 10px;
   background-color: coral;
-  margin: 10px;
+  margin: 30px;
   margin-top: 85px;
 
 }
