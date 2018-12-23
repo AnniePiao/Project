@@ -1,4 +1,4 @@
-body{
+ body{
   background-color: pink;
   font-family: sans-serif;
   font-size: 20px;
@@ -9,6 +9,7 @@ header{
   font-size: 2em;
   text-align: center;
   padding: 30px;
+  color:green;
 
 }
 header:hover{
@@ -18,13 +19,22 @@ header:hover{
 
 main{
 display: flex;
-flex:100px;
+flex:80px;
 margin: 40px;
 }
-
+h1{
+  font-size: 1.6em;
+  color:yellow;
+  font-weight: lighter;
+}
+h2{
+  font-size: 1.5em;
+  color:coral;
+}
 
 p{
 font-size: 1em;
+font-weight: lighter;
 }
 
 li{
@@ -33,6 +43,31 @@ li{
   margin: 0
   padding:0
 }
+dl{
+
+
+}
+dt{
+  font-size: inherit;
+  color:pink;
+  text-align:center;
+  padding: 20px;
+}
+dd{
+  margin: 0
+}
+#one{
+  background-color: coral;
+  margin: 90px 0 40px 0;
+  border-style: solid;
+}
+#two{
+  background-color: coral;
+  margin-bottom: 40px;
+  border-style: solid;
+}
+
+
 
 footer{
   text-align: center;
@@ -61,13 +96,14 @@ nav li:first-child{
   background-color: black;
 }
 
-/* =============Block Part==================== */
+/* =============left Part==================== */
 .block p{
   background-color: coral;
   padding: 20px;
 }
 .block{
   display: block;
+  margin-top: 50px;
 
 }
 .text{
@@ -78,23 +114,11 @@ nav li:first-child{
   background-color: coral;
   border-style: solid;
 }
-.rightbar{
-  margin: 0
-  padding:0
-}
-.rightbar ul{
-  background-color: coral;
-margin: 0
-}
-.rightbar li{
-color:black;
-margin: 0
-}
-img{
-margin: 0
 
-}
 /* =====================content PART============================== */
+.whole{
+  margin: 20px;
+}
 .middle{
   column-count: 2;
   column-width: 100px;
@@ -102,7 +126,7 @@ margin: 0
   border: 2px solid coral;
   padding: 10px;
   background-color: coral;
-  margin: 30px;
+  margin: 10px;
   margin-top: 85px;
 
 }
