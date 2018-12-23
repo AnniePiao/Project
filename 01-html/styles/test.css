@@ -3,10 +3,10 @@
   padding:0;
 }
 body{
-  background-color: pink;
+
   font-family: sans-serif;
   font-size: 20px;
-  line-height: 110%;
+
 }
 h1{
   font-size: 1.6em;
@@ -22,31 +22,32 @@ p{
   font-size: 1em;
   font-weight: lighter;
 }
+
 header{
   height: 100px;
-  width: 1000px;
+  width: 1024px;
   padding: 20px;
   background-color: white;
 }
 
 header img{
-float: left;
+  float: left;
 }
 
 div .whole{
 
 }
 main nav{
-
+  background-color: coral;
 }
 
 nav ul{
 
-  width: 1000px;
-  height: 20px;
-  line-height: 20px;
+  width: 1024px;
+  height: 40px;
+  line-height: 40px;
   text-align: center;
-  /* position: fixed; */
+  background-color: coral;
 }
 nav li{
   float:left;
@@ -59,6 +60,7 @@ nav li{
 nav li:hover{
   background-color: black;
   color:coral;
+  cursor: pointer;
 }
 nav li:first-child{
   color:white;
@@ -66,32 +68,38 @@ nav li:first-child{
 
 }
 div .advertise{
-  width: 1000px;
+  width: 1024px;
   height: 100px;
   background-color: white;
-  border:5px solid;
+  border:2px solid;
+  border-left: none;
+  border-right: none;
 
 
 }
 div .advertise h3{
   line-height: 100px;
   text-align: center;
+
 }
 
 main .tree{
   background-image: url(images/tree.jpg);
+
 }
 
 main .tree img{
   display: block;
+  margin:0 auto;
 }
 main .infosection{
-  width: 1000px;
+  width: 1024px;
   height: 200px;
   background-color: white;
+  border-top: 1px solid;
 }
 main .infosection ul{
-  width: 1000px;
+  width: 1024px;
   height: 200px;
 
 }
@@ -104,50 +112,118 @@ main .infosection ul li{
   border-radius: 10%;
 }
 div .imgs{
-  width: 1000px;
+  width: 1024px;
   height: 1000px;
 
 }
 div .imgs ul{
-  position: absolute;
-  width: 1000px;
+  width: 900px;
   height: 1000px;
+  margin: 0 auto;
 }
 div .imgs li{
+  width: 800px;
+  height: 300px;
+  margin: 20px;
 
 }
 
-div .imgs img{
-
-}
 div .imgs li .clothes{
 
 }
 div .imgs li .cookers{
-  position: absolute;
-  top:300px;
-  left: 400px;
-  
+  float: right;
+
+}
+div .imgs li .cookers p{
+
 }
 div .imgs li .beauty{
-  position: absolute;
-  top: 100px;
+
 }
-div .imgs li h3{
+
+
+div .imgs li .box1{
+  margin-left: 250px;
+  width: 575px;
+  height: 225px;
+  background: url("images/imgs/red.jpg") repeat 0 0;
+  background-color: yellow;
+
+}
+div .imgs li .box2{
+  margin-right: 400px;
+  width: 382px;
+  height: 300px;
+
+background-color: yellow;
+}
+div .imgs li .box3{
+  margin-left: 245px;
+  width: 555px;
+  height: 225px;
+
+  background-color: yellow;
+}
+div .imgs img{
+  float: left;
+  border: 4px solid;
+}
+div .imgs img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+div .imgs  h3{
   font-size: 1.6em;
-  font-family: inherit;
+  font-family: fantasy,sans-serif;
+  font-weight: lighter;
+  padding: 20px;
 
 }
 div .imgs li p{
   font-size: 1em;
-  font-family: inherit;
+  font-family: fantasy,sans-serif;
+  float: left;
+  width: 300px;
+  height: 100px;
+  padding-left: 20px;
+
+
 }
+div .imgs li p span{
+  text-transform: uppercase;
+}
+div .imgs li p span:link div .imgs li p span:visited{
+  color: black;
+}
+
 div .imgs2{
-  width: 1000px;
-  height: 1000px;
+  width: 1024px;
+  height: 750px;
+  border:2px solid;
+  margin: 20px;
 }
-div .icon{
+div .imgs2 ul{
   width: 1000px;
+  height: 700px;
+  border:2px solid;
+  margin: 10px;
+}
+div .imgs2 ul li{
+  width: 230px;
+  height: 300px;
+  background-color: coral;
+  float: left;
+  margin: 10px;
+
+}
+div .imgs2 ul li:hover{
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+div .icon{
+  width: 1024px;
   height: 100px;
   background-color: white;
 }
@@ -156,4 +232,5 @@ div .icon img{
 }
 footer{
   text-align: center;
+  line-height: 100px;
 }
